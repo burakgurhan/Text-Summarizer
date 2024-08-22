@@ -7,7 +7,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = "testSummarizer"
+project_name = "textSummarizer"
 
 list_of_files = [
     ".github/workflows/.gitkeep",   # We will use this file whenever we do CI/CD deployment to cloud.
